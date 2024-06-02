@@ -22,7 +22,7 @@ Before you can start, you'll need to have the following installed on your system
 
 1. **Clone the repository:**
 
-git clone https://github.com/[your-username]/[project-name].git
+git clone https://github.com/jbritttt/Laravel-Blog.git
 
 
 2. **Navigate to the project directory:**
