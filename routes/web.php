@@ -1,11 +1,13 @@
 <?php
 
+use App\Models\Post;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\UserController;
 
 Route::get('/', function () {
-    return view('home');
+    $posts = Post::all();
+    return view('home', ['posts' => $posts]);
 });
 
 
@@ -16,3 +18,6 @@ Route::post('/logout', [UserController::class,'logout']);
 Route::post('/login', [UserController::class,'login']);
 
 Route::post('/create-post', [PostController::class,'createPost']);
+
+Route::post('/create-post', [PostController::class,'createPost']);
+//userPosts()
