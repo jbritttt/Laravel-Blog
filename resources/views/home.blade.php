@@ -34,9 +34,9 @@
                     <p>{{$post['body']}}</p>
                     <p><a href="/edit-post/{{$post->id}}">Edit</a></p>
 
-                    <form action="/delete-post{{$post->id}}" method="POST">
+                    <form action="/delete-post/{{$post->id}}" method="POST">
                 @csrf
-                @method('Delete')
+                @method('delete')
                 <button>Delete</button>
                 </form>
                 </div>
