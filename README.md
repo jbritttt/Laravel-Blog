@@ -63,7 +63,6 @@ php artisan serve
 
 ### Additional Notes
 
-* **Frontend Assets:** If you need to compile frontend assets, follow the instructions provided in the project's `package.json` file.
 * **Testing:** This project may include tests. You can run them using:
 
 php artisan test
