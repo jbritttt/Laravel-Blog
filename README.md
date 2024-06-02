@@ -27,7 +27,7 @@ git clone https://github.com/jbritttt/Laravel-Blog.git
 
 2. **Navigate to the project directory:**
 
-cd [laravel-blog]
+cd laravel-blog
 
 
 3. **Install dependencies:**
